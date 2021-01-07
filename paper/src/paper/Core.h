@@ -5,6 +5,6 @@
 	#else
 		#define PAPER_API __declspec(dllimport)
 	#endif // PAPER_BUILD_DLL
-	#else 
+#else 
 		#error Hazel only supports Windows!
 #endif // HZ_PLATFORM_WINDOWS

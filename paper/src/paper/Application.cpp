@@ -1,10 +1,12 @@
 #include "Application.h"
 namespace Paper {
-	Application::Application() {
+	Application::Application() 
+	{
 
 	}
 
-	Application::~Application() {
+	Application::~Application() 
+	{
 
 	}
 

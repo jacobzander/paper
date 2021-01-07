@@ -11,8 +11,6 @@ public:
 	}
 };
 
-void main() {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+Paper::Application* Paper::CreateApplication() {
+	return new Sandbox();
 }
