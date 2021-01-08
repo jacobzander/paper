@@ -13,4 +13,4 @@ public:
 
 Paper::Application* Paper::CreateApplication() {
 	return new Sandbox();
-}
+} 
