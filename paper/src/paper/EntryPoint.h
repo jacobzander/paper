@@ -1,5 +1,5 @@
 #pragma once
-#ifdef HZ_PLATFORM_WINDOWS
+#ifdef PA_PLATFORM_WINDOWS
 
 extern Paper::Application* Paper::CreateApplication();
 
@@ -14,4 +14,4 @@ int main(int argc, char** argv)
 	delete app;
 }
 
-#endif // HZ_PLATFORM_WINDOWS
+#endif // PA_PLATFORM_WINDOWS
