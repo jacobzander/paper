@@ -3,8 +3,12 @@
 
 extern Paper::Application* Paper::CreateApplication();
 
-int main(int argc, char** argv) {
-	printf("Hazel Engine\n");
+int main(int argc, char** argv) 
+{
+	Paper::Log::Init();
+	PA_CORE_WARN("Initalized Log!");
+
+	PA_INFO("Hello!");
 	auto app = Paper::CreateApplication();
 	app->Run();
 	delete app;
